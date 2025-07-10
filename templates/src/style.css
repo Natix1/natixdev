@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile-img {
+  width: 128px;
+  height: 128px;
+  border-radius: 9999px;
+  object-fit: cover;
+  border: 3px solid #1e88e5; /* blueish accent */
+  margin: 0 auto;
+}
+
+/* Buttons */
+.btn-primary {
+  @apply inline-block px-6 py-3 bg-[#1e88e5] text-black font-semibold rounded transition;
+}
+.btn-primary:hover {
+  background-color: #1a73ca;
+}
+
+.btn-outline {
+  @apply inline-block px-6 py-3 border border-[#1e88e5] text-[#1e88e5] font-semibold rounded transition;
+}
+.btn-outline:hover {
+  background-color: #1e88e5;
+  color: black;
+}
+
+/* Blue text highlight */
+.text-blue-400 {
+  color: #60a5fa; /* Tailwind's blue-400 */
+}

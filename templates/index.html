@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>natix1 | Roblox Developer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body class="bg-[#121212] text-[#eee] font-poppins flex items-center justify-center min-h-screen px-4 text-center">
+
+  <div class="max-w-md w-full flex flex-col items-center">
+
+    <img src="{{ .RobloxImageURL }}" alt="natix1 profile" class="profile-img mb-8" />
+
+    <h1 class="text-5xl font-bold tracking-tight mb-2">natix1</h1>
+    <p class="text-lg text-gray-400 mb-6">Roblox Developer</p>
+
+    <p class="text-gray-300 mb-8">
+      Developer @ <span class="font-semibold text-blue-400">Ronald's Group</span><br />
+      <span class="font-semibold text-blue-400">(175K+)</span>.
+    </p>
+
+    <div class="space-x-4">
+      <a href="{{ .RobloxProfileURL }}" target="_blank" rel="noopener noreferrer" class="btn-primary">Roblox Profile</a>
+      <a href="{{ .RobloxGroupURL }}" target="_blank" rel="noopener noreferrer" class="btn-outline">Ronald's Group</a>
+    </div>
+
+    <footer class="mt-16 text-sm text-gray-600 select-none">© 2025 natix1</footer>
+  </div>
+
+  <script src="src/script.js"></script>
+</body>
+</html>
